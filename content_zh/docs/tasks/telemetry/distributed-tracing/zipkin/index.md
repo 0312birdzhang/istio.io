@@ -42,7 +42,7 @@ keywords: [telemetry,tracing,zipkin,span,port-forwarding]
 
      {{< image link="./istio-tracing-details-zipkin.png" caption="详细追踪视图" >}}
 
-1. 追踪信息由一组 span 组成，每个 span 对应一个 Bookinfo service。这些 service 在执行 `/productpage` 请求时被调用，或是 Istio 内部组件，例如：`istio-ingressgateway`、`istio-mixer`,、`istio-policy`。
+1. 追踪信息由一组 span 组成，每个 span 对应一个 Bookinfo service。这些 service 在执行 `/productpage` 请求时被调用，或是 Istio 内部组件，例如：`istio-ingressgateway`、`istio-mixer`、`istio-policy`。
 
 ## 清理
 
